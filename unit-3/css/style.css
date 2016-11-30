@@ -24,6 +24,19 @@ h2 {
 	line-height: 25px;
 }
 
+a {
+	text-decoration: none;
+	color: #F48D17;
+}
+
+footer {
+	list-style-type: none;
+}
+
 #slogan {
 	font-style: italic;
+}
+
+.secondary-nav {
+	list-style-type: none;
 }
