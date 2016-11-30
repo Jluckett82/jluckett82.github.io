@@ -1,0 +1,29 @@
+/* Jaimi Luckett's First General Assembly Page	*/
+body {
+    background-color: 03b9e0;
+    color: #373638;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #03b9e0;
+	font-family: "Montserrat",Georgia,"Times New Roman",Times,serif;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 45px;
+	line-height: 45px;
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 25px;
+}
+
+#slogan {
+	font-style: italic;
+}
