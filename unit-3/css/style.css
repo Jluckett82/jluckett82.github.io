@@ -1,13 +1,16 @@
 /* Jaimi Luckett's First General Assembly Page	*/
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
     background-color: #fff;
     color: #373638;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 1.42857;
 }
-
+section {
+	padding:4em 0;
+}
 h1,h2,h3,h4,h5,h6 {
 	color: #03b9e0;
 	font-family: "Montserrat",Georgia,"Times New Roman",Times,serif;
@@ -15,13 +18,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 45px;
-	line-height: 45px;
+	font-size: 3em;
+	line-height: 1em;
 }
-
 h2 {
-	font-size: 25px;
-	line-height: 25px;
+	font-size:1.25em;
+}
+h3 {
+	font-size: 2em;
+	line-height: 1em;
 }
 
 a {
@@ -32,7 +37,12 @@ a {
 footer ul {
 	list-style-type: none;
 }
-
+#hero {
+	background:url(../images/hero-banner.png);
+	height:90vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 #slogan {
 	font-style: italic;
 }
