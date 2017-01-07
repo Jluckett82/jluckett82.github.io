@@ -47,7 +47,6 @@ section {
 	padding: 2em 0;
 	background-color: #E89C6C;/* REMOVE AFTER LESSON 5*/
 	border: 1px black solid;/* REMOVE AFTER LESSON 5*/
-	float: left;
 
 }
 
@@ -111,6 +110,8 @@ footer ul {
 
 #skills {
 	width: 30%;
+	float: left;
+	padding: 1em;
 
 }
 
