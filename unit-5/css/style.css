@@ -110,12 +110,24 @@ footer ul {
 
 #skills {
 	width: 30%;
-	float: left;
-	padding: 1em;
-
 }
 
 #skills img {
 	width: 100%;
 	border-radius: 100%;
+}
+
+#content {
+    float: left;
+	padding: 1em;
+}
+
+#development {
+	float: left;
+	padding: 1em;
+}
+
+#editing {
+   float: left;
+	padding: 1em;
 }
