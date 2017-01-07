@@ -39,15 +39,10 @@ nav a {
 	padding: 1em 1.25em;
 }
 
-nav a:hover {
-	/* DETERMINE WHAT THE HOVER COLOR SHOULD BE */
-}
-
 section {
 	padding: 2em 0;
 	background-color: #E89C6C;/* REMOVE AFTER LESSON 5*/
 	border: 1px black solid;/* REMOVE AFTER LESSON 5*/
-	float: left;
 
 }
 
