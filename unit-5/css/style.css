@@ -83,6 +83,7 @@ footer {
 	background-color: #FF957E;/* REMOVE AFTER LESSON 5*/
 	border: 1px black solid;/* REMOVE AFTER LESSON 5*/
 	padding: 20px; /* REMOVE AFTER LESSON 5*/
+	clear:both;
 }
 
 footer ul {
@@ -110,24 +111,10 @@ footer ul {
 
 #skills {
 	width: 30%;
+	display: block;
 }
 
 #skills img {
 	width: 100%;
 	border-radius: 100%;
-}
-
-#content {
-    float: left;
-	padding: 1em;
-}
-
-#development {
-	float: left;
-	padding: 1em;
-}
-
-#editing {
-   float: left;
-	padding: 1em;
 }
