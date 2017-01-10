@@ -18,6 +18,7 @@ body {
 
 header {
 	background-color:#7a8d37;
+	padding:.5em;
 }
 
 
@@ -86,15 +87,13 @@ footer ul {
 }
 
 #about {
-    background-color: #FFB7CF; /* added per the project instructions in unit 6 */
-    border: 1px black solid; /* added per the project instructions in unit 6 */
+    background-color: #a7a7a7; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
 
 }
 
 #left {
-    background-color: violet; /* added per the project instructions in unit 6 */
-    border: 1px black solid; /* added per the project instructions in unit 6 */
+    background-color: #a7a7a7; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
     float: left; /* added per the project instructions in unit 6 */
     width: 62%; /* added per the project instructions in unit 6 */
@@ -102,16 +101,14 @@ footer ul {
 
 #about img {
 	border-radius: 100%;
-    background-color: pink; /* added per the project instructions in unit 6 */
-    border: 1px black solid; /* added per the project instructions in unit 6 */
+    background-color: #a7a7a7; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
     float: right; /* added per the project instructions in unit 6 */
     width: 30%; /* added per the project instructions in unit 6 */
 }
 
 #skills {
-    background-color: #FFB7CF; /* added per the project instructions in unit 6 */
-    border: 1px black solid; /* added per the project instructions in unit 6 */
+    background-color: #fff; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
 
 }
@@ -122,24 +119,21 @@ footer ul {
 }
 
 #content {
-    background-color: violet; /* added per the project instructions in unit 6 */
-    border: 1px black solid; /* added per the project instructions in unit 6 */
+    background-color: #fff; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
     float: left; /* added per the project instructions in unit 6 */
     width: 30%; /* added per the project instructions in unit 6 */
 }
 
 #development {
-    background-color: pink; /* added per the project instructions in unit 6 */
-    border: 1px black solid; /* added per the project instructions in unit 6 */
+    background-color: #fff; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
     float: left;  /* added per the project instructions in unit 6 */  
     width: 30%; /* added per the project instructions in unit 6 */
 }
 
 #editing {
-    background-color: gray; /* added per the project instructions in unit 6 */
-    border: 1px black solid; /* added per the project instructions in unit 6 */
+    background-color: #fff; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
     float: left;  /* added per the project instructions in unit 6 */  
     width: 30%; /* added per the project instructions in unit 6 */
