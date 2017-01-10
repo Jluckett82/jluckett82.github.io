@@ -88,7 +88,8 @@ footer ul {
 
 #about {
     background-color: #ececec; /* added per the project instructions in unit 6 */
-    padding: 20px 0px; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
+    margin: 0px;
 
 }
 
