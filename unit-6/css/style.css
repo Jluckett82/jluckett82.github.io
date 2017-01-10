@@ -105,7 +105,7 @@ footer ul {
     background-color: pink; /* added per the project instructions in unit 6 */
     border: 1px black solid; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
-    float: left; /* added per the project instructions in unit 6 */
+    float: right; /* added per the project instructions in unit 6 */
     width: 30%; /* added per the project instructions in unit 6 */
 }
 
@@ -122,25 +122,25 @@ footer ul {
 }
 
 #content {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
+    background-color: violet; /* added per the project instructions in unit 6 */
+    border: 1px black solid; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
+    float: left; /* added per the project instructions in unit 6 */
+    width: 30%; /* added per the project instructions in unit 6 */
 }
 
 #development {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 30%;
+    background-color: pink; /* added per the project instructions in unit 6 */
+    border: 1px black solid; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
+    float: left;  /* added per the project instructions in unit 6 */  
+    width: 30%; /* added per the project instructions in unit 6 */
 }
 
 #editing {
-    background-color: gray;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 30%;
+    background-color: gray; /* added per the project instructions in unit 6 */
+    border: 1px black solid; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
+    float: left;  /* added per the project instructions in unit 6 */  
+    width: 30%; /* added per the project instructions in unit 6 */
 }
