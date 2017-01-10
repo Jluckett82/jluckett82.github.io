@@ -13,12 +13,12 @@ body {
     font-size: 18px;
     font-weight: normal;
     line-height: 1.42857em;
-    padding: 1.5em;
+    /* padding: 1.5em; */
 }
 
 header {
 	background-color:#7a8d37;
-	padding:.5em;
+	margin: 1em;
 }
 
 
@@ -28,10 +28,10 @@ nav {
 }
 
 nav a {
-	color:#fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	padding: 1em 1.25em;
+	display: inline-block;
 }
 
 section {
@@ -75,9 +75,7 @@ footer ul {
 	list-style-type: none;
 }
 
-#logo {
-
-}
+#logo {float: left;}
 
 #hero {
 	background: url(../images/hero-banner.png);
@@ -88,40 +86,42 @@ footer ul {
 
 #about {
     background-color: #ececec; /* added per the project instructions in unit 6 */
-    padding: 20px; /* added per the project instructions in unit 6 */
+    padding: 4em 0; /* added per the project instructions in unit 6 */
     margin: 0px;
-
+    /* width: 600px; */
+    /* margin: auto; */
 }
 
 #left {
     padding: 20px; /* added per the project instructions in unit 6 */
     float: left; /* added per the project instructions in unit 6 */
-    width: 62%; /* added per the project instructions in unit 6 */
+    width: 66.66%; /* added per the project instructions in unit 6 */
 }
 
 #about img {
 	border-radius: 100%;
-    padding: 20px; /* added per the project instructions in unit 6 */
-    float: right; /* added per the project instructions in unit 6 */
-    width: 30%; /* added per the project instructions in unit 6 */
+	padding: 0 20px; /* added per the project instructions in unit 6 */
+	float: right; /* added per the project instructions in unit 6 */
+	width: 18em; /* added per the project instructions in unit 6 */
 }
 
 #skills {
     background-color: #fff; /* added per the project instructions in unit 6 */
-    padding: 20px; /* added per the project instructions in unit 6 */
-
+    padding: 4em 0; /* added per the project instructions in unit 6 */
+    width: 1200px;
+    margin: auto;
 }
 
 #skills img {
-	width: 50%;
+	width: 100%;
 	border-radius: 100%;
 }
 
-#content {
+#skills section {
     background-color: #fff; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
     float: left; /* added per the project instructions in unit 6 */
-    width: 30%; /* added per the project instructions in unit 6 */
+    width: 33.33%; /* added per the project instructions in unit 6 */
 }
 
 #development {
@@ -145,4 +145,8 @@ footer ul {
     content: " ";
     clear: both;
     height: 0;
+}
+.wrapper {
+    width: 800px;
+    margin: auto;
 }
