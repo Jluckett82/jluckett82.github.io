@@ -17,19 +17,13 @@ body {
 }
 
 header {
-	/*background-color:#7a8d37; REPLACE AFTER LESSON 5*/
-	background-color: #FFED74;/* REMOVE AFTER LESSON 5*/
-	border: 1px black solid;/* REMOVE AFTER LESSON 5*/
-	padding: 20px; /* REMOVE AFTER LESSON 5*/
+	background-color:#7a8d37;
 }
 
 
 nav {
 	float: right;
 	text-transform: uppercase;
-	background-color: #E8C66A;/* REMOVE AFTER LESSON 5*/
-	border: 1px black solid;/* REMOVE AFTER LESSON 5*/
-	padding: 20px; /* REMOVE AFTER LESSON 5*/
 }
 
 nav a {
@@ -41,9 +35,6 @@ nav a {
 
 section {
 	padding: 2em 0;
-	background-color: #E89C6C;/* REMOVE AFTER LESSON 5*/
-	border: 1px black solid;/* REMOVE AFTER LESSON 5*/
-
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -76,9 +67,7 @@ a:hover {
 }
 
 footer {
-	background-color: #FF957E;/* REMOVE AFTER LESSON 5*/
-	border: 1px black solid;/* REMOVE AFTER LESSON 5*/
-	padding: 20px; /* REMOVE AFTER LESSON 5*/
+
 }
 
 footer ul {
@@ -97,19 +86,43 @@ footer ul {
 }
 
 #about {
+    background-color: #FFB7CF; /* added per the project instructions in unit 6 */
+    border: 1px black solid; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
 
 }
 
 #about img {
 	border-radius: 100%;
+	padding: 20px; /* added per the project instructions in unit 6 */
 }
 
 #skills {
-	width: 30%;
+    background-color: #FFB7CF; /* added per the project instructions in unit 6 */
+    border: 1px black solid; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
 
 }
 
 #skills img {
 	width: 100%;
 	border-radius: 100%;
+}
+
+#content {
+    background-color: #E582A2; /* added per the project instructions in unit 6 */
+    border: 1px black solid; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
+}
+
+#development {
+    background-color: #E55B88; /* added per the project instructions in unit 6 */
+    border: 1px black solid; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
+}
+
+#editing {
+    background-color: #E55BCC;
+    border: 1px black solid;
+    padding: 20px;
 }
