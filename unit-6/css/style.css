@@ -144,3 +144,12 @@ footer ul {
     float: left;  /* added per the project instructions in unit 6 */  
     width: 30%; /* added per the project instructions in unit 6 */
 }
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
