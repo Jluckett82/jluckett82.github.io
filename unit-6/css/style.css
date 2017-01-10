@@ -92,9 +92,21 @@ footer ul {
 
 }
 
+#left {
+    background-color: violet; /* added per the project instructions in unit 6 */
+    border: 1px black solid; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
+    float: left; /* added per the project instructions in unit 6 */
+    width: 62%; /* added per the project instructions in unit 6 */
+}
+
 #about img {
 	border-radius: 100%;
-	padding: 20px; /* added per the project instructions in unit 6 */
+    background-color: pink; /* added per the project instructions in unit 6 */
+    border: 1px black solid; /* added per the project instructions in unit 6 */
+    padding: 20px; /* added per the project instructions in unit 6 */
+    float: left; /* added per the project instructions in unit 6 */
+    width: 30%; /* added per the project instructions in unit 6 */
 }
 
 #skills {
@@ -110,19 +122,25 @@ footer ul {
 }
 
 #content {
-    background-color: #E582A2; /* added per the project instructions in unit 6 */
-    border: 1px black solid; /* added per the project instructions in unit 6 */
-    padding: 20px; /* added per the project instructions in unit 6 */
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
 }
 
 #development {
-    background-color: #E55B88; /* added per the project instructions in unit 6 */
-    border: 1px black solid; /* added per the project instructions in unit 6 */
-    padding: 20px; /* added per the project instructions in unit 6 */
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 30%;
 }
 
 #editing {
-    background-color: #E55BCC;
+    background-color: gray;
     border: 1px black solid;
     padding: 20px;
+    float: right;   
+    width: 30%;
 }
