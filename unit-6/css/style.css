@@ -87,13 +87,12 @@ footer ul {
 }
 
 #about {
-    background-color: #a7a7a7; /* added per the project instructions in unit 6 */
-    padding: 20px; /* added per the project instructions in unit 6 */
+    background-color: #ececec; /* added per the project instructions in unit 6 */
+    padding: 20px 0px; /* added per the project instructions in unit 6 */
 
 }
 
 #left {
-    background-color: #a7a7a7; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
     float: left; /* added per the project instructions in unit 6 */
     width: 62%; /* added per the project instructions in unit 6 */
@@ -101,7 +100,6 @@ footer ul {
 
 #about img {
 	border-radius: 100%;
-    background-color: #a7a7a7; /* added per the project instructions in unit 6 */
     padding: 20px; /* added per the project instructions in unit 6 */
     float: right; /* added per the project instructions in unit 6 */
     width: 30%; /* added per the project instructions in unit 6 */
