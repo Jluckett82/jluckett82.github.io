@@ -1,0 +1,248 @@
+/* Jaimi Luckett's First General Assembly Page	*/
+* { 
+	margin: 0; padding:0; box-sizing:border-box; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+    background-color: #fff;
+    color: #373638;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.42857em;
+    /* padding: 1.5em; */
+}
+
+header {
+	background-color:#7a8d37;
+	margin: 1em;
+}
+
+
+nav {
+	float: right;
+	text-transform: uppercase;
+}
+
+nav a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding: 1em 1.25em;
+	display: inline-block;
+}
+
+section {
+	padding: 2em 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #303568;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+h3 {
+	font-size: 2em;
+	line-height: 1em;
+}
+
+a {
+	text-decoration: none;
+	color:#7a8d37;
+}
+
+a:hover {
+	color: #896a51;
+}
+
+footer {
+    background-color: #7a8d37;
+}
+
+
+footer ul {
+	list-style-type: none;
+    padding: 1em;
+    float: left;
+}
+
+footer li {
+    display:inline;
+    padding:0 .75em;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .text {
+    display:inline;
+    padding: 0 1em;
+}
+
+#logo {float: left;}
+
+#hero {
+	background: url(../images/hero-banner.png);
+    height: 90vh;
+    /*background-size: cover;*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+    /* DON'T KNOW HOW TO GET THE IMAGE TO BE RESPONSIVE*/
+}
+
+#about {
+    background-color: #ececec;
+<<<<<<< Updated upstream
+    padding: 4em 0;
+    margin: 0;
+    /* width: 600px; */
+    /* margin: auto; */
+=======
+>>>>>>> Stashed changes
+}
+
+#about div {
+    padding: 20px; 
+    float: left; 
+    width: 66.66%; 
+}
+
+#about img {
+	border-radius: 100%;
+	padding: 0 20px; 
+	float: right; 
+	width: 18em; 
+}
+
+#skills {
+    background-color: #fff; 
+    padding: 4em 0;
+    width: 100%;
+    margin: auto;
+}
+
+#skills img {
+	width: 100%;
+	border-radius: 100%;
+}
+
+#skills section {
+    background-color: #fff;
+    padding: 20px;
+    float: left;
+    width: 33.33%;
+}
+
+#social {
+    float: right;
+    padding:0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.wrapper { /* WHERE IS THIS SUPPOSED TO GO IN THE HTML? IT WAS ADDED LAST TIME*/
+    width: 800px;
+    margin: auto;
+}
+
+
+@media screen and (max-width:971px){
+    h1 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.75em;
+    }
+
+    #about img {
+        padding: 1.125em 1.25em;  
+        width: 14em; 
+    }
+}
+
+@media screen and (max-width:868px){
+    #skills section {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:760px){
+    #about img {
+        padding: 1.125em 1.25em;  
+        width: 12em; 
+    }
+}
+
+@media screen and (max-width:648px){
+    nav {
+
+    }
+
+    nav a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding: .5em 1.25em;
+        display: block;
+    }
+
+    footer li {
+        font-size: .75em;
+        padding: .5em;
+    }
+
+        #about img {
+        margin:0 7em; /*BOOTLEG ATTEMPT TO CENTER THIS IN THE CONTAINER--NOT WORKING*/
+        float: none; 
+        width: 14em; 
+    }
+
+    #about {
+        display: block;
+    }
+
+    #about div {
+        width: 100%; 
+    }
+
+    #skills section {
+        width: 85%;
+    }
+
+    #skills img {
+        width: 85%;
+    }
+
+    #social {
+
+        }
+}
+@media screen and (max-width:480px){
+    footer li {
+        font-size: .75em;
+        padding: .25em;
+        display: block;
+    }
+
+
+}
+
