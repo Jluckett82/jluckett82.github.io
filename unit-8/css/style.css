@@ -99,7 +99,7 @@ footer .text {
     width: 100%;
     height: auto;
     /*background-size: cover;*/
-	background-size: 100%;
+	background-size: contain;
 	background-repeat: no-repeat;
     /* DON'T KNOW HOW TO GET THE IMAGE TO BE RESPONSIVE*/
 }
