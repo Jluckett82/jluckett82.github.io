@@ -86,10 +86,14 @@ footer ul {
 
 #about {
     background-color: #ececec; /* added per the project instructions in unit 6 */
+<<<<<<< Updated upstream
     padding: 4em 0; /* added per the project instructions in unit 6 */
     margin: 0px;
     /* width: 600px; */
     /* margin: auto; */
+=======
+    padding: 20px; /* added per the project instructions in unit 6 */
+>>>>>>> Stashed changes
 }
 
 #left {
