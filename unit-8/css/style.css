@@ -97,8 +97,7 @@ footer .text {
 #hero {
 	background: url(../images/hero-banner.png);
     height: 90vh;
-    /*background-size: cover;*/
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
     /* DON'T KNOW HOW TO GET THE IMAGE TO BE RESPONSIVE*/
 }
