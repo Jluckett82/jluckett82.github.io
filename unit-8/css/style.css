@@ -96,7 +96,8 @@ footer .text {
 
 #hero {
 	background: url(../images/hero-banner.png);
-    height: 90vh;
+    width: 100%;
+    height: auto;
     /*background-size: cover;*/
 	background-size: 100%;
 	background-repeat: no-repeat;
